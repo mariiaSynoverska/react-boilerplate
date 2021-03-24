@@ -6,7 +6,7 @@ import { HomePage } from "pages";
 import { AppProvider } from "./appProvider";
 
 //
-function App() {
+function index() {
   const history = createBrowserHistory();
   return (
     <AppProvider>
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default index;

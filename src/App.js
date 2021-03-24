@@ -5,6 +5,7 @@ import { createBrowserHistory } from "history";
 import { HomePage } from "pages";
 import { AppProvider } from "./appProvider";
 
+//
 function App() {
   const history = createBrowserHistory();
   return (
